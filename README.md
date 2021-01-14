@@ -2,7 +2,7 @@
 
   
 
-Vector configurator is a command-line utility for doing some common operatioins on an [OSKR](https://oskr.ddl.io/) enabled bot.
+Vector Configurator is a command-line utility for doing some common operations on an [OSKR](https://oskr.ddl.io/) enabled Vector robot.
 
   
 
