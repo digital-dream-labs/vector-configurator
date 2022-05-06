@@ -46,12 +46,12 @@ $ vc set-environment -e escapepod -h 10.0.2.42 -k ~/.ssh/vector.key
 ### Arguments
 | flag | description| notes |
 |--|--|--|
-| -e | environment | `escapepod `and `production` are the supported environments|
+| -e | environment | `escapepod` and `production` are the supported environments|
 | -h | hostname or IP of your robot | |
 | -k | The location of the SSH key for your robot | |
 
 ## upload-cloud-binaries
-This allows you to easily upload the cloud binaries built from the [vector-cloud](https://github.com/digital-dream-labs/vector-cloud) repository
+This allows you to easily upload the cloud binaries built from the [vector-cloud](https://github.com/digital-dream-labs/vector-cloud) repository - though this step is only necessary if your robot is on 1.7.0 firmware- above that, the binaries are built in.
 
 An example command would be...
 ```
@@ -62,5 +62,5 @@ $ vc upload-cloud-binaries -b ~/vector-cloud/build/ -h 10.0.2.42 -k ~/.ssh/vecto
 | flag | description| notes |
 |--|--|--|
 | -b | binary directory | The directory containing the vic-cloud and vic-gateway files |
-| -h | hostname or IP of your robot | |
-| -k | The location of the SSH key for your robot | |
+| -h | hostname or IP of your robot | Internal IP Address; found in [CCIS](https://support.digitaldreamlabs.com/article/531-vector-ccis) |
+| -k | The location of the SSH key for your robot | The SSH key can be found inside a log package in the "ssh" directory. |

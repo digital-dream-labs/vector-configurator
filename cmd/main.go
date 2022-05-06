@@ -11,14 +11,14 @@ func main() {
 
 	// set environment arguments
 	setenv := flag.NewFlagSet("set-environment", flag.ExitOnError)
-	shost := setenv.String("h", "", "the ip of the vector robot")
-	skey := setenv.String("k", "", "the location of the ssh key")
+	shost := setenv.String("h", "", "The internal IP address of the Vector robot")
+	skey := setenv.String("k", "", "The location of the SSH key")
 	senv := setenv.String("e", "", "environment")
 
 	cloudbin := flag.NewFlagSet("upload-cloud-binaries", flag.ExitOnError)
-	chost := cloudbin.String("h", "", "the ip of the vector robot")
-	ckey := cloudbin.String("k", "", "the location of the ssh key")
-	cbindir := cloudbin.String("b", "", "path to vic-cloud and vic-gateway binaries")
+	chost := cloudbin.String("h", "", "The internal IP address of the Vector robot")
+	ckey := cloudbin.String("k", "", "The location of the SSH key")
+	cbindir := cloudbin.String("b", "", "Location of / path to vic-cloud and vic-gateway binaries")
 
 	flag.Parse()
 
@@ -29,8 +29,7 @@ This tool will allow you to do the following things:
 set-environment          - change the environment that 
                            your bot is pointed at
 upload-cloud-binaries    - upload and set permissions
-                           for the vector-cloud binaries
-`)
+                           for the vector-cloud binaries`)
 		os.Exit(0)
 	}
 
