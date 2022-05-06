@@ -8,10 +8,10 @@ import (
 const (
 	escapepod = `
 {
-    "jdocs": "escapepod.local:8084",
-    "tms": "escapepod.local:8084",
-    "chipper": "escapepod.local:8084",
-    "check": "escapepod.local/ok",
+    "jdocs": "escapepod.local:443",
+    "tms": "escapepod.local:443",
+    "chipper": "escapepod.local:443",
+    "check": "escapepod.local:80/ok",
     "logfiles": "s3://anki-device-logs-prod/victor",
     "appkey": "oDoa0quieSeir6goowai7f"
 }`

@@ -51,7 +51,7 @@ $ vc set-environment -e escapepod -h 10.0.2.42 -k ~/.ssh/vector.key
 | -k | The location of the SSH key for your robot | |
 
 ## upload-cloud-binaries
-This allows you to easily upload the cloud binaries built from the [vector-cloud](https://github.com/digital-dream-labs/vector-cloud) repository
+This allows you to easily upload the cloud binaries built from the [vector-cloud](https://github.com/digital-dream-labs/vector-cloud) repository - though this step is only necessary if your robot is on 1.7.0 firmware- above that, the binaries are built in.
 
 An example command would be...
 ```
