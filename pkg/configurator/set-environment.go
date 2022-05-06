@@ -11,7 +11,7 @@ const (
     "jdocs": "escapepod.local:443",
     "tms": "escapepod.local:443",
     "chipper": "escapepod.local:443",
-    "check": "escapepod.local:80/ok",
+    "check": "escapepod.local/ok:80",
     "logfiles": "s3://anki-device-logs-prod/victor",
     "appkey": "oDoa0quieSeir6goowai7f"
 }`
